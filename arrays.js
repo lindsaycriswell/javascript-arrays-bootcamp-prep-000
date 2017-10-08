@@ -17,11 +17,10 @@ function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;
 }
-// function destructivelyAddElementToEndOfArray(array, element){
-//   array.push(element);
-//   return array;
-// }
-//
+
+function accessElementInArray(array, index){
+  return array[index];
+}
 // function accessElementInArray(array, index){
 //   var element = array[index];
 //   return element;
