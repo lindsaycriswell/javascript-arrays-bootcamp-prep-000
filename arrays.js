@@ -21,11 +21,10 @@ function destructivelyAddElementToEndOfArray(array, element){
 function accessElementInArray(array, index){
   return array[index];
 }
-// function accessElementInArray(array, index){
-//   var element = array[index];
-//   return element;
-// }
-//
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  return array.unshit;
+}
 // function destructivelyRemoveElementFromBeginningOfArray(array){
 //   array.shift();
 //   return array;
